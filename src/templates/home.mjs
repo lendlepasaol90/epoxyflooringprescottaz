@@ -1,5 +1,5 @@
 import { site, images } from '../site.mjs';
-import { esc, md, img, imgUrl } from '../lib/html.mjs';
+import { esc, md, img, imgUrl, beginDedupe, endDedupe } from '../lib/html.mjs';
 import { layout } from './layout.mjs';
 import { leadForm, phoneLink } from './parts.mjs';
 import { services } from '../content/services/index.mjs';
@@ -24,6 +24,7 @@ const faqs = [
 ];
 
 export function renderHome() {
+  beginDedupe(['bar', 'dellsBlue', 'garageGroup', 'garageRow', 'hangarJet', 'hangarSmall', 'kitchenLights', 'livingCouch']);
   const catalog = services.map((s, i) => `<a class="item fade dl${i % 3}" href="/${s.slug}/"><div class="figwrap"><div class="frame lift">${img(s.image, { widths: [400, 700], sizes: '(max-width: 640px) 92vw, (max-width: 960px) 46vw, 360px', ratio: 4 / 3, alt: '' })}</div></div><h3>${esc(s.name)}</h3><p>${esc(s.homeBlurb)}</p></a>`).join('');
   const gal = [
     ['garageGroup', 'Bright service shop floor around vehicle lifts'],
@@ -37,7 +38,7 @@ export function renderHome() {
 
   const body = `
 <section class="hero" aria-labelledby="hero-h">
-  <div class="hero__tex" aria-hidden="true">${img('dellsBlue', { widths: [800, 1400, 2000], alt: '' })}</div>
+  <div class="hero__tex" aria-hidden="true">${img('dellsBlue', { keep: true, widths: [800, 1400, 2000], alt: '' })}</div>
   <div class="wrap">
     <div class="hero__copy fade shown">
       ${orn}
@@ -46,7 +47,7 @@ export function renderHome() {
       <div class="hero__btns"><button class="cta cta--slate" type="button" data-pop>Request an estimate</button><a class="cta cta--line" href="#services">View our services</a></div>
     </div>
     <figure class="hero__fig figwrap" style="margin-inline:auto">
-      <div class="frame lift">${img('garageRow', { eager: true, sizes: '(max-width: 1100px) 92vw, 1040px', widths: [600, 1000, 1400, 2000], ratio: 21 / 9 })}</div>
+      <div class="frame lift">${img('garageRow', { keep: true, eager: true, sizes: '(max-width: 1100px) 92vw, 1040px', widths: [600, 1000, 1400, 2000], ratio: 21 / 9 })}</div>
       <figcaption class="plate">A bright garage, prepared for a durable coating</figcaption>
     </figure>
     <div class="counts">
@@ -246,7 +247,7 @@ export function renderHome() {
 <section class="sec sec--white" aria-labelledby="gal-h">
   <div class="wrap">
     <div class="hd c fade">${orn}<h2 id="gal-h">Featured floors and finishes</h2><p class="mute">Select an image to view it larger. Samples of every finish come with your estimate.</p></div>
-    <div class="lgal">${gal.map(([k, cap], i) => `<button type="button" class="fade dl${i % 3}" data-lb="${imgUrl(k, 1600)}" data-cap="${esc(cap)}"><div class="frame">${img(k, { widths: [400, 700], sizes: '(max-width: 640px) 92vw, (max-width: 960px) 46vw, 360px', ratio: 4 / 3 })}</div><span>${esc(cap)}</span></button>`).join('')}</div>
+    <div class="lgal">${gal.map(([k, cap], i) => `<button type="button" class="fade dl${i % 3}" data-lb="${imgUrl(k, 1600)}" data-cap="${esc(cap)}"><div class="frame">${img(k, { keep: true, widths: [400, 700], sizes: '(max-width: 640px) 92vw, (max-width: 960px) 46vw, 360px', ratio: 4 / 3 })}</div><span>${esc(cap)}</span></button>`).join('')}</div>
   </div>
 </section>
 <dialog class="lbox" id="lbox" aria-label="Image viewer"><button class="lbox__x" type="button" aria-label="Close image">×</button><img src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt=""><p></p></dialog>
@@ -277,6 +278,7 @@ export function renderHome() {
   </div>
 </section>`;
 
+  endDedupe();
   return layout({
     path: '/',
     title: 'Epoxy Flooring Prescott | Garage, Home & Hangar Floor Coatings',
