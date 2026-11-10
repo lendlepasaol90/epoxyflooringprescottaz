@@ -4,7 +4,7 @@ export default {
   tagline: 'Basements, laundry rooms, studios and casitas',
   summary: 'Seamless interior floors for basements, laundry rooms, studios, wine rooms and casitas, with moisture testing as standard.',
   homeBlurb: 'Seamless coated floors for basements, laundry and mudrooms, studios, wine rooms and casitas. Moisture is tested in every room, and finishes are chosen to suit the home’s character.',
-  plate: 'Satin finish in a light-filled room',
+  plate: 'A light-filled room ready for a new floor',
   serviceType: 'Residential epoxy flooring',
   title: 'Residential Epoxy Flooring in Prescott | Basements & Interiors',
   description: 'Interior epoxy floors in Prescott for basements, laundry rooms, studios, wine rooms and casitas. Moisture testing, careful preparation and finishes that suit your home.',

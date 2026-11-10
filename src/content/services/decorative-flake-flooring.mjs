@@ -4,7 +4,7 @@ export default {
   tagline: 'Granite-look chip floors in local palettes',
   summary: 'Chip floors with a granite-like appearance, in palettes drawn from the Dells, the forest and Prescott’s older homes.',
   homeBlurb: 'Layered vinyl chips create a granite-like floor that conceals dust, pine needles and everyday wear. Palettes drawn from the Granite Dells, the ponderosa forest and the warm tones of older homes.',
-  plate: 'Full-broadcast flake in a granite blend',
+  plate: 'A garage ready for its new floor',
   serviceType: 'Decorative flake floor coating',
   title: 'Decorative Flake Flooring in Prescott | Granite-Look Chip Floors',
   description: 'Decorative flake floors in Prescott for garages, carriage houses, mudrooms and businesses. Granite-look chip blends inspired by the Dells and the ponderosa forest.',

@@ -26,12 +26,12 @@ const faqs = [
 export function renderHome() {
   const catalog = services.map((s, i) => `<a class="item fade dl${i % 3}" href="/${s.slug}/"><div class="figwrap"><div class="frame lift">${img(s.image, { widths: [400, 700], sizes: '(max-width: 640px) 92vw, (max-width: 960px) 46vw, 360px', ratio: 4 / 3, alt: '' })}</div></div><h3>${esc(s.name)}</h3><p>${esc(s.homeBlurb)}</p></a>`).join('');
   const gal = [
-    ['garageGroup', 'Full flake garage with clear topcoat'],
+    ['garageGroup', 'Bright service shop floor around vehicle lifts'],
     ['livingCouch', 'Satin coated slab in a living room'],
     ['hangarJet', 'Light, reflective hangar floor'],
-    ['bar', 'Durable floor behind a busy bar'],
+    ['bar', 'Bar counter over a seamless coated floor'],
     ['kitchenLights', 'Seamless floor in a kitchen and dining area'],
-    ['hangarSmall', 'Shared hangar with multiple aircraft'],
+    ['hangarSmall', 'Single-aircraft hangar with a sealed floor'],
   ];
   const allFaqs = faqs.flatMap((g) => g.items);
 
@@ -47,7 +47,7 @@ export function renderHome() {
     </div>
     <figure class="hero__fig figwrap" style="margin-inline:auto">
       <div class="frame lift">${img('garageRow', { eager: true, sizes: '(max-width: 1100px) 92vw, 1040px', widths: [600, 1000, 1400, 2000], ratio: 21 / 9 })}</div>
-      <figcaption class="plate">A finished garage floor with a clear, protective topcoat</figcaption>
+      <figcaption class="plate">A bright garage, prepared for a durable coating</figcaption>
     </figure>
     <div class="counts">
       <div class="fade"><b><span data-count="5400">5,400</span> ft</b><span class="counts__lbl">approximate elevation, with real winters</span></div>

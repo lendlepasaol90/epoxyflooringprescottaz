@@ -93,7 +93,7 @@ Information you provide is used solely to respond to your enquiry, arrange an es
 
 ## Third parties
 
-Submissions may be delivered to us through an email or workflow service. The map is supplied by Google Maps and photographs are served by Unsplash; these services may collect routine technical information, such as IP addresses, under their own policies.
+Submissions may be delivered to us through an email or workflow service. The map is supplied by Google Maps, which may collect routine technical information, such as IP addresses, under their own policies.
 
 ## Your rights
 

@@ -4,7 +4,7 @@ export default {
   tagline: 'Attached garages, carriage houses and collector garages',
   summary: 'Ground, repaired and coated garage floors for homes of every age, finished to resist deicer, oil and high-altitude sun.',
   homeBlurb: 'Attached garages, detached carriage houses and collector garages, ground back to sound concrete, repaired and finished with a durable flake or solid system and a UV-stable topcoat.',
-  plate: 'Clear topcoat over a decorative flake base',
+  plate: 'A bright, easy-to-clean shop floor',
   serviceType: 'Garage floor coating',
   title: 'Garage Floor Coatings in Prescott, AZ | Epoxy & Flake Systems',
   description: 'Garage floor coatings in Prescott for attached garages, carriage houses and collector garages. Thorough grinding, repairs and durable flake or solid epoxy systems.',

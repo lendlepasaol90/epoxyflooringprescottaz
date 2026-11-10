@@ -4,7 +4,7 @@ export default {
   tagline: 'Rapid-curing, light-stable topcoats',
   summary: 'Rapid-curing coatings that tolerate cool weather, resist sunlight and return garages, porches and hangars to use quickly.',
   homeBlurb: 'A rapid-curing coating that tolerates cooler weather and will not yellow in sunlight. Garages, covered porches, offices and hangars return to service quickly, often within a day or two.',
-  plate: 'Polyaspartic topcoat over a flake base',
+  plate: 'A light, fast-curing hangar finish',
   serviceType: 'Polyaspartic floor coating',
   title: 'Polyaspartic Floor Coatings in Prescott | Rapid-Cure Systems',
   description: 'Polyaspartic floor coatings in Prescott for garages, porches, offices and hangars. Rapid cure, light-stable finish and a wider temperature window than epoxy.',

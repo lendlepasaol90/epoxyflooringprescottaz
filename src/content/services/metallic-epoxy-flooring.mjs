@@ -4,7 +4,7 @@ export default {
   tagline: 'Hand-worked floors for galleries, homes and showrooms',
   summary: 'One-of-a-kind metallic finishes for living spaces, galleries, collector garages and hospitality interiors.',
   homeBlurb: 'Reflective pigments are worked by hand into clear resin to create a floor with genuine depth and movement. Suited to remodeled living spaces, galleries, tasting rooms and collector garages.',
-  plate: 'Hand-worked metallic in a living space',
+  plate: 'A seamless floor in a living space',
   serviceType: 'Metallic epoxy flooring',
   title: 'Metallic Epoxy Flooring in Prescott | Custom Decorative Floors',
   description: 'Custom metallic epoxy floors in Prescott for remodeled homes, galleries, tasting rooms and collector garages. Walnut, slate, pewter and granite-inspired palettes.',
