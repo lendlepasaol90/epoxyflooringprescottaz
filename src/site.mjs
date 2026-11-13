@@ -2,7 +2,7 @@
 
 export const site = {
   name: 'Epoxy Flooring Prescott',
-  domain: 'https://epoxyflooringprescottaz.com',
+  domain: 'https://prescotteliteepoxyflooring.com',
   city: 'Prescott',
   cityLong: 'Prescott',
   region: 'Yavapai County, Arizona',

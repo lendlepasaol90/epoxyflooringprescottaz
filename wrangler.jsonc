@@ -14,11 +14,11 @@
   "vars": {
     "SITE_NAME": "Epoxy Flooring Prescott"
   }
-  // Custom domain: attach epoxyflooringprescottaz.com (and www) under
+  // Custom domain: attach prescotteliteepoxyflooring.com (and www) under
   // Workers & Pages → epoxyflooringprescottaz → Settings → Domains & Routes,
   // or uncomment once the zone is in this Cloudflare account:
   // "routes": [
-  //   { "pattern": "epoxyflooringprescottaz.com", "custom_domain": true },
-  //   { "pattern": "www.epoxyflooringprescottaz.com", "custom_domain": true }
+  //   { "pattern": "prescotteliteepoxyflooring.com", "custom_domain": true },
+  //   { "pattern": "www.prescotteliteepoxyflooring.com", "custom_domain": true }
   // ]
 }
