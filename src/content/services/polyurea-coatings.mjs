@@ -1,5 +1,5 @@
 export default {
-  slug: 'polyurea-floor-coatings',
+  slug: 'polyurea-coatings',
   name: 'Polyurea Floor Coatings',
   tagline: 'Resilient base coats for barns, shops and older slabs',
   summary: 'Resilient, flexible base coats for barns, shops, carriage houses and older slabs exposed to freeze-thaw and heavy use.',
@@ -58,7 +58,7 @@ A polyurea base suits these conditions particularly well. It tolerates cold and 
       heading: 'Systems built on a polyurea base',
       toc: 'Systems',
       items: [
-        { name: 'Heavy-duty garage system', body: 'Polyurea base, decorative flake and a light-stable [polyaspartic](/polyaspartic-floor-coatings/) topcoat with texture.' },
+        { name: 'Heavy-duty garage system', body: 'Polyurea base, decorative flake and a light-stable [polyaspartic](/polyaspartic-topcoats/) topcoat with texture.' },
         { name: 'Workshop and barn floor', body: 'Pigmented polyurea beneath a grit-filled topcoat for maximum footing.' },
         { name: 'High-build polyurea', body: 'Additional thickness for floors that carry heavy equipment daily.' },
         { name: 'Flexible joint treatment', body: 'Polyurea-based fillers that move with joints and cracks, used beneath many systems.' },
@@ -131,12 +131,12 @@ Care is straightforward: regular sweeping, clearing meltwater in winter and occa
     { q: 'How cold may it be during installation?', a: 'It is more forgiving of a chilly morning than epoxy, though not without limit. If the slab is too cold on the day, we warm the building first or move the date.' },
     { q: 'When can the floor be used?', a: 'The base cures quickly; the topcoat usually determines timing, typically within a day or two.' },
     { q: 'Can polyurea be colored?', a: 'Yes. It can be pigmented or used beneath decorative flakes.' },
-    { q: 'Is polyurea suitable for a hangar?', a: 'Often, as a resilient base beneath a topcoat chosen for aviation fluids. See our [hangar and warehouse](/warehouse-floor-coatings/) page.' },
+    { q: 'Is polyurea suitable for a hangar?', a: 'Often, as a resilient base beneath a topcoat chosen for aviation fluids. See our [hangar and warehouse](/hangar-warehouse-floors/) page.' },
     {"q": "Is polyurea worthwhile in a heated attached garage?", "a": "Not always. If the slab is sound and the garage is heated, an epoxy base may serve just as well at a slightly lower cost. We advise according to the floor."},
     {"q": "Can polyurea go in a horse wash bay?", "a": "Yes, with a coarse, slip-resistant texture and attention to drainage. We discuss the use of the space carefully before specifying the finish."},
     {"q": "Can you coat only part of a large barn floor?", "a": "Certainly. Many owners coat the working aisles, wash bay and tack room fully and seal storage bays more simply. We price each area separately so you can choose."},
     {"q": "How does polyurea cope with manure and feed acids?", "a": "With an appropriate topcoat, it resists these well and cleans easily with a hose and a mild cleaner. Prompt rinsing extends the life of any finish."},
   ],
-  related: ['garage-floor-coatings', 'warehouse-floor-coatings', 'polyaspartic-floor-coatings'],
+  related: ['garage-floor-coating', 'hangar-warehouse-floors', 'polyaspartic-topcoats'],
   cta: { heading: 'Find out whether polyurea suits your floor', body: 'We will survey the cracks, joints and conditions and explain whether a flexible base is worthwhile, with a written estimate.' },
 };

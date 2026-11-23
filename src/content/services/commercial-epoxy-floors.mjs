@@ -1,5 +1,5 @@
 export default {
-  slug: 'commercial-epoxy-flooring',
+  slug: 'commercial-epoxy-floors',
   name: 'Commercial Epoxy Flooring',
   tagline: 'Restaurants, galleries, shops and offices',
   summary: 'Seamless commercial floors for restaurants, bars, galleries, shops, clinics and offices, including tenants in historic buildings.',
@@ -135,6 +135,6 @@ Maintenance consists of routine cleaning with suitable products, mats at entranc
     {"q": "Can production and taproom areas have different floors?", "a": "Yes. We frequently install a heavy-duty system in production and a decorative finish in the taproom, joined by a clean, sealed transition."},
     {"q": "Do you provide documentation for landlords or building owners?", "a": "Yes. We supply product data sheets, safety information and a schedule to support any approval the building requires."},
   ],
-  related: ['warehouse-floor-coatings', 'metallic-epoxy-flooring', 'polyaspartic-floor-coatings'],
+  related: ['hangar-warehouse-floors', 'polyaspartic-topcoats'],
   cta: { heading: 'Discuss your commercial floor', body: 'Tell us about your premises and trading hours. We will survey the site and send a written proposal with a schedule designed around your business.' },
 };

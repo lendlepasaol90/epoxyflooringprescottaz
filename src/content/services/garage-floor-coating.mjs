@@ -1,5 +1,5 @@
 export default {
-  slug: 'garage-floor-coatings',
+  slug: 'garage-floor-coating',
   name: 'Garage Floor Coatings',
   tagline: 'Attached garages, carriage houses and collector garages',
   summary: 'Ground, repaired and coated garage floors for homes of every age, finished to resist deicer, oil and high-altitude sun.',
@@ -45,9 +45,9 @@ Only when the surface is sound do we begin applying the system.`,
       body: 'Each of these builds begins with the preparation described above.',
       items: [
         { name: 'Decorative flake system', body: 'A tinted base coat, a full broadcast of vinyl chips and a clear, textured topcoat. Hides dust and pine needles, gives good footing and suits nearly any home.' },
-        { name: 'Flexible base for older slabs', body: 'A [polyurea](/polyurea-floor-coatings/) base that tolerates movement at cracks and joints, often recommended for older or detached garages.' },
+        { name: 'Flexible base for older slabs', body: 'A [polyurea](/polyurea-coatings/) base that tolerates movement at cracks and joints, often recommended for older or detached garages.' },
         { name: 'Solid color with grip', body: 'One uniform shade, with fine grit locked into the clear layer for footing. Favored by woodworkers, mechanics and anyone who wants an uncluttered look.' },
-        { name: 'Collector showroom finish', body: 'A high-gloss solid or [metallic](/metallic-epoxy-flooring/) floor for garages that house classic or collector vehicles.' },
+        { name: 'Collector showroom finish', body: 'A high-gloss solid or metallic floor for garages that house classic or collector vehicles.' },
       ],
     },
     {
@@ -144,6 +144,6 @@ Use a pad beneath kickstands and jack stands. After many years, if the topcoat d
     { q: 'Is winter a bad time to coat a garage?', a: 'Heated garages can be coated year-round. For unheated garages, we may use temporary heat and a cold-tolerant system, or recommend a milder window.' },
     { q: 'Do you coat the stem walls?', a: 'If you wish. It protects them from splashing slush and gives a tidy, finished edge.' },
   ],
-  related: ['decorative-flake-flooring', 'polyurea-floor-coatings', 'polyaspartic-floor-coatings'],
+  related: ['chip-flake-floors', 'polyurea-coatings', 'polyaspartic-topcoats'],
   cta: { heading: 'Arrange a garage estimate', body: 'We will examine the slab, note any paint, sealers or winter damage, show you finish samples and provide a written estimate.' },
 };

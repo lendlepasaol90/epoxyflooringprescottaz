@@ -1,5 +1,5 @@
 export default {
-  slug: 'decorative-flake-flooring',
+  slug: 'chip-flake-floors',
   name: 'Decorative Flake Flooring',
   tagline: 'Granite-look chip floors in local palettes',
   summary: 'Chip floors with a granite-like appearance, in palettes drawn from the Dells, the forest and Prescott’s older homes.',
@@ -67,7 +67,7 @@ For most garages, a full broadcast of quarter-inch chips is the most practical c
       kind: 'prose',
       heading: 'Where flake floors serve well',
       toc: 'Applications',
-      body: `Garages are the natural home of the flake floor; our [garage coatings](/garage-floor-coatings/) page explains how we prepare and build them. Beyond the garage, flake systems are well suited to carriage houses and detached workshops, mudrooms and laundry rooms, covered porches with an exterior topcoat, and businesses such as retail shops, salons and auto service areas that need a floor that looks clean between cleanings.`,
+      body: `Garages are the natural home of the flake floor; our [garage coatings](/garage-floor-coating/) page explains how we prepare and build them. Beyond the garage, flake systems are well suited to carriage houses and detached workshops, mudrooms and laundry rooms, covered porches with an exterior topcoat, and businesses such as retail shops, salons and auto service areas that need a floor that looks clean between cleanings.`,
     },
     {
       kind: 'steps',
@@ -130,6 +130,6 @@ Installation is adjusted to the conditions. On cool mornings the base coat thick
     {"q": "Can a flake floor be renewed later?", "a": "Yes. When the clear coat begins to dull, it is lightly sanded and a fresh topcoat applied; the chips beneath are unaffected."},
     {"q": "Is a gloss finish harder to keep looking new?", "a": "Gloss shows dust and fine scratches slightly sooner than satin. With a flake base, the difference is small, and texture in the topcoat reduces it further."},
   ],
-  related: ['garage-floor-coatings', 'residential-epoxy-flooring', 'patio-concrete-coatings'],
+  related: ['garage-floor-coating', 'basement-and-interior-epoxy', 'porch-walkway-patio-coatings'],
   cta: { heading: 'See the palettes in person', body: 'We will bring chip samples in each palette, examine your concrete and provide a written estimate.' },
 };

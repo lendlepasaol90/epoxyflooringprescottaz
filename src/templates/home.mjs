@@ -44,7 +44,7 @@ export function renderHome() {
       ${orn}
       <h1 id="hero-h">Well-made floors for Prescott homes, businesses and hangars</h1>
       <p class="lg">Garage coatings, interior epoxy, decorative and metallic finishes and commercial floors, built on carefully prepared concrete and suited to life at five thousand feet.</p>
-      <div class="hero__btns"><button class="cta cta--slate" type="button" data-pop>Request an estimate</button><a class="cta cta--line" href="#services">View our services</a></div>
+      <div class="hero__btns"><a class="cta cta--slate" href="#__EST__">Request an estimate</a><a class="cta cta--line" href="#services">View our services</a></div>
     </div>
     <figure class="hero__fig figwrap" style="margin-inline:auto">
       <div class="frame lift">${img('garageRow', { keep: true, eager: true, sizes: '(max-width: 1100px) 92vw, 1040px', widths: [600, 1000, 1400, 2000], ratio: 21 / 9 })}</div>
@@ -61,9 +61,9 @@ export function renderHome() {
 <section class="sec sec--s sec--white" aria-labelledby="doors-h">
   <h2 id="doors-h" class="visually-hidden">Who we help</h2>
   <div class="wrap doors">
-    <a class="door fade" href="/garage-floor-coatings/"><h3>For homeowners</h3><p>Garages, basements, laundry rooms, casitas and patios in homes of every age, from Victorians near the square to newer builds at the edge of town.</p><span>Residential coatings</span></a>
-    <a class="door fade dl1" href="/commercial-epoxy-flooring/"><h3>For businesses</h3><p>Restaurants, shops, offices and clinics, including tenants in older downtown buildings where careful planning matters.</p><span>Commercial floors</span></a>
-    <a class="door fade dl2" href="/warehouse-floor-coatings/"><h3>For hangars and industry</h3><p>Aircraft hangars, maintenance shops, warehouses and fabrication space that need tough, bright and chemical-resistant floors.</p><span>Industrial coatings</span></a>
+    <a class="door fade" href="/garage-floor-coating/"><h3>For homeowners</h3><p>Garages, basements, laundry rooms, casitas and patios in homes of every age, from Victorians near the square to newer builds at the edge of town.</p><span>Residential coatings</span></a>
+    <a class="door fade dl1" href="/commercial-epoxy-floors/"><h3>For businesses</h3><p>Restaurants, shops, offices and clinics, including tenants in older downtown buildings where careful planning matters.</p><span>Commercial floors</span></a>
+    <a class="door fade dl2" href="/hangar-warehouse-floors/"><h3>For hangars and industry</h3><p>Aircraft hangars, maintenance shops, warehouses and fabrication space that need tough, bright and chemical-resistant floors.</p><span>Industrial coatings</span></a>
   </div>
 </section>
 
@@ -76,14 +76,14 @@ export function renderHome() {
     <div class="prose-w fade dl1">
       <p>Prescott is a town that values craftsmanship. People restore Victorian porches, keep vintage cars in their garages and take pride in homes that have been cared for over decades. We approach concrete floors the same way.</p>
       <p>Before anything is applied, we look carefully at the slab. Older homes may have paint, sealers or patched cracks from years past. Newer homes may carry a builder's curing compound. Garages near the national forest often show winter damage near the door. All of it is ground away or repaired so the coating bonds to sound concrete, which is what decides whether a floor lasts three years or fifteen.</p>
-      <p>Then we recommend a system to suit the space: a <a href="/garage-floor-coatings/">garage floor coating</a> with a decorative flake finish, a seamless <a href="/residential-epoxy-flooring/">interior floor</a> for a basement or casita, a fast-curing <a href="/polyaspartic-floor-coatings/">polyaspartic</a> or flexible <a href="/polyurea-floor-coatings/">polyurea</a> build, a <a href="/metallic-epoxy-flooring/">metallic</a> or <a href="/decorative-flake-flooring/">decorative flake</a> finish, a protective <a href="/patio-concrete-coatings/">patio coating</a>, or a durable <a href="/commercial-epoxy-flooring/">commercial</a> or <a href="/warehouse-floor-coatings/">hangar and warehouse</a> floor. Every estimate is free and provided in writing.</p>
+      <p>Then we recommend a system to suit the space: a <a href="/garage-floor-coating/">garage floor coating</a> with a decorative flake finish, a seamless <a href="/basement-and-interior-epoxy/">interior floor</a> for a basement or casita, a fast-curing <a href="/polyaspartic-topcoats/">polyaspartic</a> or flexible <a href="/polyurea-coatings/">polyurea</a> build, a metallic or <a href="/chip-flake-floors/">decorative flake</a> finish, a protective <a href="/porch-walkway-patio-coatings/">patio coating</a>, or a durable <a href="/commercial-epoxy-floors/">commercial</a> or <a href="/hangar-warehouse-floors/">hangar and warehouse</a> floor. Every estimate is free and provided in writing.</p>
     </div>
   </div>
 </section>
 
 <section class="sec sec--white" id="services" aria-labelledby="svc-h">
   <div class="wrap">
-    <div class="hd c fade">${orn}<h2 id="svc-h">Our flooring services</h2><p class="mute">Nine services, each explained in detail on its own page with finishes, process, care and common questions.</p></div>
+    <div class="hd c fade">${orn}<h2 id="svc-h">Our flooring services</h2><p class="mute">Eight services, each explained in detail on its own page with finishes, process, care and common questions. Hangars and warehouses share one page because the prep, systems and striping are much the same.</p></div>
     <div class="catalog">${catalog}</div>
   </div>
 </section>
@@ -96,7 +96,7 @@ export function renderHome() {
       <p>Garages around Prescott range from detached carriage houses behind older homes to three-car garages in Prescott Lakes and the Ranch. They share a set of challenges: snow and slush tracked in through winter, road deicer, spring dust, strong sun at altitude and the oil and fluids that come with vehicles and equipment.</p>
       <p>Our garage systems begin with diamond grinding to remove whatever is on the slab and open the concrete. Cracks, spalls and winter scaling are repaired. Then we apply a bonding base coat, a broadcast of decorative flakes and a UV-stable, slip-resistant topcoat that will not yellow by the door.</p>
       <ul class="marks"><li>Old paint, sealers and failed coatings removed completely</li><li>Repairs for cracks and winter flaking included in the estimate</li><li>Finishes chosen to suit the home, from classic to contemporary</li></ul>
-      <a class="go" href="/garage-floor-coatings/">Learn about garage coatings</a>
+      <a class="go" href="/garage-floor-coating/">Learn about garage coatings</a>
     </div>
   </div>
 </section>
@@ -110,7 +110,7 @@ export function renderHome() {
     <div class="fade">
       <h2 id="res-h">Residential epoxy flooring inside the home</h2>
       <p>Many Prescott homes have rooms on concrete that work harder than any other part of the house: basements in older homes, laundry and mudrooms, casitas, workshops and studios. A seamless coated floor in those spaces is easy to clean, stands up to wet boots and dogs, and can look as refined as the rest of the home.</p>
-      <p>Interior work calls for more care than a garage. Finishes are chosen to complement cabinetry, trim and wall color, sheen is matched to the light in the room and moisture is tested before anything is applied, which matters especially in basements and older slabs. Our <a href="/residential-epoxy-flooring/">residential epoxy flooring</a> page covers finishes, preparation and what to expect.</p>
+      <p>Interior work calls for more care than a garage. Finishes are chosen to complement cabinetry, trim and wall color, sheen is matched to the light in the room and moisture is tested before anything is applied, which matters especially in basements and older slabs. Our <a href="/basement-and-interior-epoxy/">residential epoxy flooring</a> page covers finishes, preparation and what to expect.</p>
     </div>
   </div>
 </section>
@@ -127,7 +127,7 @@ export function renderHome() {
         <div class="chip"><i style="background:radial-gradient(circle at 30% 30%,#c7a582,#7a5739)"></i><span>Walnut bronze</span></div>
         <div class="chip"><i style="background:radial-gradient(circle at 30% 30%,#b6c4d1,#4b6075)"></i><span>Thumb Butte slate</span></div>
       </div>
-      <p><a class="go" href="/decorative-flake-flooring/">Decorative flake</a>&ensp;&ensp;<a class="go" href="/metallic-epoxy-flooring/">Metallic epoxy</a></p>
+      <p><a class="go" href="/chip-flake-floors/">Decorative flake</a>&ensp;&ensp;Metallic epoxy</p>
     </div>
     <div class="figwrap fade dl1"><div class="frame lift">${img('livingCouch', { sizes: '(max-width: 960px) 92vw, 540px', widths: [500, 800, 1100], ratio: 5 / 4 })}</div><p class="plate">Satin finish in a family room</p></div>
   </div>
@@ -137,9 +137,9 @@ export function renderHome() {
   <div class="wrap">
     <div class="hd c fade">${orn}<h2 id="biz-h">Commercial and industrial flooring</h2><p>From restaurants near Courthouse Square to hangars at Prescott Regional Airport, businesses here need floors that are tough, easy to keep clean and installed without unnecessary downtime.</p></div>
     <div class="bizgrid">
-      <article class="biz fade"><figure>${img('restaurant', { sizes: '(max-width: 960px) 46vw, 360px', widths: [400, 700], ratio: 1.6 })}</figure><div><h3>Commercial epoxy flooring</h3><p>Restaurants, bars, retail shops, salons, offices and medical practices. Seamless floors that clean quickly, resist spills and chemicals and can be textured where floors get wet.</p><a href="/commercial-epoxy-flooring/">Commercial floors</a></div></article>
-      <article class="biz fade dl1"><figure>${img('hangarSmall', { sizes: '(max-width: 960px) 46vw, 360px', widths: [400, 700], ratio: 1.6 })}</figure><div><h3>Aircraft hangars</h3><p>Bright, chemical-resistant floors that make leaks easy to spot, reflect light for maintenance work and stand up to tugs, jacks and tire marks.</p><a href="/warehouse-floor-coatings/">Hangar and industrial floors</a></div></article>
-      <article class="biz fade dl2"><figure>${img('workshop', { sizes: '(max-width: 960px) 46vw, 360px', widths: [400, 700], ratio: 1.6 })}</figure><div><h3>Industrial flooring solutions</h3><p>Warehouses, fabrication and maintenance shops, and storage buildings. High-build epoxy and polyurea systems, joint repair, dust-proofing and safety striping.</p><a href="/polyurea-floor-coatings/">Heavy-duty systems</a></div></article>
+      <article class="biz fade"><figure>${img('restaurant', { sizes: '(max-width: 960px) 46vw, 360px', widths: [400, 700], ratio: 1.6 })}</figure><div><h3>Commercial epoxy flooring</h3><p>Restaurants, bars, retail shops, salons, offices and medical practices. Seamless floors that clean quickly, resist spills and chemicals and can be textured where floors get wet.</p><a href="/commercial-epoxy-floors/">Commercial floors</a></div></article>
+      <article class="biz fade dl1"><figure>${img('hangarSmall', { sizes: '(max-width: 960px) 46vw, 360px', widths: [400, 700], ratio: 1.6 })}</figure><div><h3>Aircraft hangars</h3><p>Bright, chemical-resistant floors that make leaks easy to spot, reflect light for maintenance work and stand up to tugs, jacks and tire marks.</p><a href="/hangar-warehouse-floors/">Hangar and industrial floors</a></div></article>
+      <article class="biz fade dl2"><figure>${img('workshop', { sizes: '(max-width: 960px) 46vw, 360px', widths: [400, 700], ratio: 1.6 })}</figure><div><h3>Industrial flooring solutions</h3><p>Warehouses, fabrication and maintenance shops, and storage buildings. High-build epoxy and polyurea systems, joint repair, dust-proofing and safety striping.</p><a href="/polyurea-coatings/">Heavy-duty systems</a></div></article>
     </div>
   </div>
 </section>
@@ -170,7 +170,7 @@ export function renderHome() {
         <div><b>Summer</b>Strong sun at altitude yellows ordinary epoxy.</div>
         <div><b>Monsoon</b>Heavy storms bring water and mud indoors.</div>
       </div>
-      <button class="cta cta--light" type="button" data-pop>Plan a floor for all four seasons</button>
+      <a class="cta cta--light" href="#__EST__">Plan a floor for all four seasons</a>
     </div>
   </div>
 </section>
@@ -254,7 +254,7 @@ export function renderHome() {
 
 <section class="sec" aria-labelledby="areas-h">
   <div class="wrap areas">
-    <div class="fade"><h2 id="areas-h">Service areas</h2><p class="mute">We are based in Prescott and work throughout central Yavapai County. Commercial and hangar projects may take us further afield by arrangement.</p><a class="go" href="/service-areas/">More about where we work</a></div>
+    <div class="fade"><h2 id="areas-h">Communities</h2><p class="mute">We are based in Prescott and work throughout central Yavapai County. Commercial and hangar projects may take us further afield by arrangement.</p><a class="go" href="/communities/">More about where we work</a></div>
     <ul class="alist fade dl1">${site.serviceAreas.map((a) => `<li><b>${esc(a.name)}</b><span>${esc(a.note)}</span></li>`).join('')}</ul>
   </div>
 </section>

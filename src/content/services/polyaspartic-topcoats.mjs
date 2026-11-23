@@ -1,5 +1,5 @@
 export default {
-  slug: 'polyaspartic-floor-coatings',
+  slug: 'polyaspartic-topcoats',
   name: 'Polyaspartic Floor Coatings',
   tagline: 'Rapid-curing, light-stable topcoats',
   summary: 'Rapid-curing coatings that tolerate cool weather, resist sunlight and return garages, porches and hangars to use quickly.',
@@ -58,7 +58,7 @@ At the other extreme, warm summer afternoons shorten working time considerably. 
       items: [
         { name: 'Garages', body: 'Back in use quickly, with a topcoat that will not yellow by the door.' },
         { name: 'Covered porches', body: 'Light-stable and textured for safe footing.' },
-        { name: 'Aircraft hangars', body: 'Short downtime for owners and operators. See [hangar floors](/warehouse-floor-coatings/).' },
+        { name: 'Aircraft hangars', body: 'Short downtime for owners and operators. See [hangar floors](/hangar-warehouse-floors/).' },
         { name: 'Offices and shops', body: 'Weekend installations with minimal disruption.' },
         { name: 'Showrooms', body: 'A clear, hard, glossy finish that resists tire marks.' },
         { name: 'Topcoat renewals', body: 'Refreshing an older, sound coating that has dulled.' },
@@ -71,7 +71,7 @@ At the other extreme, warm summer afternoons shorten working time considerably. 
       items: [
         { name: 'Flake garage system', body: 'A bonded base, decorative chips laid edge to edge and a clear, gritted top layer that hardens the same day. Most of the garages we finish in Prescott are built this way.' },
         { name: 'Pigmented quick-turn floor', body: 'A solid color system for offices, shops and clinics that must reopen promptly.' },
-        { name: 'Porch and entry system', body: 'UV-stable and textured for covered outdoor concrete. See [patio coatings](/patio-concrete-coatings/).' },
+        { name: 'Porch and entry system', body: 'UV-stable and textured for covered outdoor concrete. See [patio coatings](/porch-walkway-patio-coatings/).' },
         { name: 'Renewal topcoat', body: 'A fresh clear layer over a sound existing coating to restore appearance and add light stability.' },
       ],
     },
@@ -134,6 +134,6 @@ Polyaspartic materials cost more than standard epoxy, but on most projects prepa
     {"q": "Can the garage be used overnight after a polyaspartic topcoat?", "a": "Often for foot traffic, yes. Vehicles usually wait a day or two, depending on temperature; we confirm before you park."},
     {"q": "Is polyaspartic suitable for a covered porch?", "a": "Very much so. A porch that catches the late sun is exactly where an ordinary clear coat would amber, and a gritted polyaspartic finish keeps both color and footing."},
   ],
-  related: ['garage-floor-coatings', 'polyurea-floor-coatings', 'warehouse-floor-coatings'],
+  related: ['garage-floor-coating', 'polyurea-coatings', 'hangar-warehouse-floors'],
   cta: { heading: 'Ask about a rapid-cure floor', body: 'We will assess your slab, sunlight exposure and timing and recommend a suitable system, with a written estimate.' },
 };

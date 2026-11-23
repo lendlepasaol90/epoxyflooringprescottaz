@@ -1,5 +1,5 @@
 export default {
-  slug: 'patio-concrete-coatings',
+  slug: 'porch-walkway-patio-coatings',
   name: 'Patio & Concrete Coatings',
   tagline: 'Porches, front walks, steps and patios',
   summary: 'Coatings and breathable sealers for porches, front walks, steps and patios exposed to snow, sun and pine-needle staining.',
@@ -130,6 +130,6 @@ Of the options, a penetrating sealer is the least costly per square foot. A full
     {"q": "Will sealing stop moss returning?", "a": "It discourages it by keeping the concrete drier, but shade and moisture still matter. Occasional cleaning and good drainage keep it in check."},
     {"q": "Can a covered porch be coated in winter?", "a": "Only on suitable days. Exterior work needs dry conditions and a slab within the product temperature range, so winter porch projects depend closely on the forecast."},
   ],
-  related: ['decorative-flake-flooring', 'polyaspartic-floor-coatings', 'garage-floor-coatings'],
+  related: ['chip-flake-floors', 'polyaspartic-topcoats', 'garage-floor-coating'],
   cta: { heading: 'Protect your porch and walks', body: 'We will walk the porch, steps and paths with you, suggest the right treatment for each and follow up with prices in writing.' },
 };
