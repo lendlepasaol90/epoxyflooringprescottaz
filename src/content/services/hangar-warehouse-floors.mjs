@@ -1,5 +1,5 @@
 export default {
-  slug: 'warehouse-floor-coatings',
+  slug: 'hangar-warehouse-floors',
   name: 'Hangar & Warehouse Coatings',
   tagline: 'Aircraft hangars, maintenance shops and warehouses',
   summary: 'Bright, chemical-resistant coatings for aircraft hangars, maintenance shops, warehouses and fabrication buildings.',
@@ -42,7 +42,7 @@ The same issues, in different forms, affect warehouses, fabrication shops and ma
       items: [
         { name: 'Hangar system', body: 'Ground and repaired slab, resilient base, light-colored build coat and a fluid-resistant topcoat with modest texture.' },
         { name: 'High-build epoxy', body: 'Thick, hard-wearing layers for heated warehouses and production floors.' },
-        { name: 'Polyurea base', body: 'Flexible and impact-resistant for unheated hangars and shops. See [polyurea coatings](/polyurea-floor-coatings/).' },
+        { name: 'Polyurea base', body: 'Flexible and impact-resistant for unheated hangars and shops. See [polyurea coatings](/polyurea-coatings/).' },
         { name: 'Densifier and sealer', body: 'Economical dust control for storage areas with light traffic.' },
       ],
     },
@@ -139,6 +139,6 @@ Maintenance is straightforward: regular sweeping or scrubbing with neutral clean
     {"q": "Can the coating continue onto the apron outside?", "a": "Interior systems are not intended for full exterior exposure. The apron is better served by a penetrating sealer, with a neat transition at the door line."},
     {"q": "Will a light floor show tire marks?", "a": "Some marks appear over time, particularly from tugs. They clean off a sealed floor far more easily than from bare concrete, and a suitable topcoat resists them."},
   ],
-  related: ['commercial-epoxy-flooring', 'polyurea-floor-coatings', 'polyaspartic-floor-coatings'],
+  related: ['commercial-epoxy-floors', 'polyurea-coatings', 'polyaspartic-topcoats'],
   cta: { heading: 'Arrange a site survey', body: 'We will review your hangar or building, the fluids and traffic involved and your schedule, and provide a written, staged proposal.' },
 };

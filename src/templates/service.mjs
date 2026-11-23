@@ -68,7 +68,7 @@ ${rel.length ? `<section class="sec sec--s sec--white" aria-labelledby="rel-h"><
 <section class="sec closer" id="estimate" aria-labelledby="est-h">
   <div class="closer__bg" aria-hidden="true">${img(s.closerImage || 'dellsWide', { widths: [800, 1400], alt: '' })}</div>
   <div class="wrap closer__grid">
-    <div class="fade"><h2 id="est-h">${esc(s.cta.heading)}</h2>${md(s.cta.body)}<ul class="closer__list"><li>Telephone <b>${phoneLink()}</b></li><li>Estimates <b>Free, in person</b></li><li>Area <b><a href="/service-areas/">Prescott &amp; nearby</a></b></li></ul></div>
+    <div class="fade"><h2 id="est-h">${esc(s.cta.heading)}</h2>${md(s.cta.body)}<ul class="closer__list"><li>Telephone <b>${phoneLink()}</b></li><li>Estimates <b>Free, in person</b></li><li>Area <b><a href="/communities/">Prescott &amp; nearby</a></b></li></ul></div>
     <div class="closer__card fade dl1">${leadForm({ id: `${s.slug}-form`, heading: 'Request an estimate', withMessage: true, preset: s.formPreset })}</div>
   </div>
 </section>`;

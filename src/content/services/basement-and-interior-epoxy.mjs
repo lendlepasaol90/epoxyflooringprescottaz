@@ -1,5 +1,5 @@
 export default {
-  slug: 'residential-epoxy-flooring',
+  slug: 'basement-and-interior-epoxy',
   name: 'Residential Epoxy Flooring',
   tagline: 'Basements, laundry rooms, studios and casitas',
   summary: 'Seamless interior floors for basements, laundry rooms, studios, wine rooms and casitas, with moisture testing as standard.',
@@ -49,7 +49,7 @@ Once properly coated, a basement floor becomes a bright, washable surface suited
       items: [
         { name: 'Satin solid color', body: 'Low sheen in warm greys, birch or soft slate. Quiet and elegant, and forgiving of footprints.' },
         { name: 'Fine flake', body: 'A subtle speckled texture, practical in laundry rooms, mudrooms and studios.' },
-        { name: 'Metallic', body: 'Flowing, reflective pigments for a statement basement or family room. See [metallic epoxy](/metallic-epoxy-flooring/).' },
+        { name: 'Metallic', body: 'Flowing, reflective pigments for a statement basement or family room. See metallic epoxy.' },
         { name: 'Clear-sealed concrete', body: 'For slabs with attractive natural character, a clear system that preserves the concrete look.' },
       ],
     },
@@ -129,6 +129,6 @@ Large south- and west-facing windows bring strong sunlight at this elevation. In
     {"q": "Can a basement stairway be coated as well?", "a": "Concrete stairs can be coated to match the floor, with a textured finish and attention to the nosings. Wooden stairs are not suitable for these systems."},
     {"q": "Is a coated mudroom slippery with snow?", "a": "With a textured topcoat, it gives secure footing even when wet. A mat inside the door catches most of the snow before it reaches the floor."},
   ],
-  related: ['metallic-epoxy-flooring', 'decorative-flake-flooring', 'garage-floor-coatings'],
+  related: ['chip-flake-floors', 'garage-floor-coating'],
   cta: { heading: 'Discuss an interior floor', body: 'We will test the concrete, show you finishes in your own rooms and provide a written estimate with a clear timeline.' },
 };
