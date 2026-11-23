@@ -1,3 +1,4 @@
+import { addressOneLine, addressHtml, directionsUrl, hoursHtml, hoursShort } from '../lib/nap.mjs';
 import { site } from '../site.mjs';
 import { esc } from '../lib/html.mjs';
 import { services } from '../content/services/index.mjs';
@@ -68,13 +69,14 @@ export function header(current = '') {
 
 export function footer() {
   const m = site.map;
-  const src = `https://maps.google.com/maps?q=${encodeURIComponent(m.query)}&ll=${m.lat},${m.lng}&z=${m.zoom}&output=embed`;
+  const src = `https://maps.google.com/maps?q=${encodeURIComponent(`${site.name}, ${m.query}`)}&z=${m.zoom}&output=embed`;
   return `<footer class="foot">
   <div class="wrap foot__grid">
     <div class="foot__brand">
       <a class="crest crest--foot" href="/"><span class="crest__frame" aria-hidden="true"></span><span class="crest__name">${esc(site.name)}</span></a>
       <p>Garage, home, commercial and hangar floor coatings for Prescott and the surrounding communities of central Yavapai County.</p>
       <a class="foot__tel" href="${site.phoneHref}">${esc(site.phone)}</a>
+      <div class="nap">${addressHtml()}<p><a href="mailto:${esc(site.email)}">${esc(site.email)}</a></p><p class="nap__hours">${esc(hoursShort())}</p></div>
     </div>
     <nav aria-label="Footer services"><p class="foot__h">Services</p><ul>${services.map((s) => `<li><a href="/${s.slug}/">${esc(s.name)}</a></li>`).join('')}</ul></nav>
     <nav aria-label="Footer pages"><p class="foot__h">Company</p><ul><li><a href="/about-us/">About us</a></li><li><a href="/service-areas/">Service areas</a></li><li><a href="/contact-us/">Contact</a></li><li><a href="/privacy-policy/">Privacy policy</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></nav>

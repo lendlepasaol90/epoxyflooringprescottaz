@@ -1,3 +1,4 @@
+import { addressOneLine, addressHtml, directionsUrl, hoursHtml, hoursShort } from '../lib/nap.mjs';
 import { site, images } from '../site.mjs';
 import { esc, md, img, imgUrl, beginDedupe, endDedupe } from '../lib/html.mjs';
 import { layout } from './layout.mjs';
@@ -272,7 +273,7 @@ export function renderHome() {
     <div class="fade">
       <h2 id="est-h">Arrange a free estimate</h2>
       <p>Tell us about the floor you have in mind. We will arrange a visit, examine the concrete and provide a written estimate with clear options and an honest recommendation.</p>
-      <ul class="closer__list"><li>Telephone <b>${phoneLink()}</b></li><li>Estimates <b>Free, in person, in writing</b></li><li>Area <b>Prescott &amp; central Yavapai County</b></li></ul>
+      <ul class="closer__list"><li>Telephone <b>${phoneLink()}</b></li><li>Address <b>${esc(addressOneLine())}</b></li><li>Hours <b>${esc(hoursShort())}</b></li><li>Estimates <b>Free, in person, in writing</b></li><li>Area <b>Prescott &amp; central Yavapai County</b></li></ul>
     </div>
     <div class="closer__card fade dl1">${leadForm({ id: 'home-form', heading: 'Request your estimate', intro: 'A minute to complete. We will contact you to arrange a convenient time.', withMessage: true })}</div>
   </div>
@@ -281,8 +282,8 @@ export function renderHome() {
   endDedupe();
   return layout({
     path: '/',
-    title: 'Epoxy Flooring Prescott | Garage, Home & Hangar Floor Coatings',
-    description: 'Garage, interior, decorative, commercial and hangar floor coatings in Prescott, AZ. Careful slab preparation, written estimates and systems built for four seasons.',
+    title: "Prescott Elite Epoxy Flooring | Prescott Epoxy Flooring Contractor",
+    description: "Prescott Elite Epoxy Flooring is an epoxy flooring company in Prescott, AZ: garage, flake, metallic and commercial floor coatings. Free estimates. Call (928) 493-8782.",
     body,
     image: 'garageRow',
     schema: [{ '@type': 'FAQPage', mainEntity: allFaqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) }],

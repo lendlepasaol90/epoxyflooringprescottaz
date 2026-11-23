@@ -1,7 +1,15 @@
 // Site-wide configuration for Epoxy Flooring Prescott.
 
 export const site = {
-  name: 'Epoxy Flooring Prescott',
+  name: "Prescott Elite Epoxy Flooring",
+  owner: "Gus Johnson",
+  category: 'Flooring Contractor',
+  description: "Prescott Elite Epoxy Flooring brings lasting beauty and dependable protection to concrete surfaces throughout Prescott, AZ, and surrounding communities. We specialize in transforming garages, patios, workshops, retail spaces, and commercial facilities with high-performance epoxy flooring and concrete coating systems. Our services include garage floor coatings, decorative epoxy flakes, metallic epoxy flooring, polyaspartic coatings, and residential and commercial concrete floor solutions. From worn, stained concrete to sleek, easy-to-maintain finishes, we help property owners achieve floors that combine durability with exceptional style. Discover the difference a professionally installed floor coating can make. Contact Prescott Elite Epoxy Flooring today!",
+  address: { street: "730 6th St #455", city: "Prescott", state: 'AZ', zip: '86301', country: 'US' },
+  hours: [
+    { days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], label: 'Monday – Saturday', opens: '07:00', closes: '18:00', text: '7:00 AM – 6:00 PM' },
+    { days: ['Sunday'], label: 'Sunday', closed: true, text: 'Closed' },
+  ],
   domain: 'https://prescotteliteepoxyflooring.com',
   city: 'Prescott',
   cityLong: 'Prescott',
@@ -9,13 +17,12 @@ export const site = {
   state: 'AZ',
   locale: 'en_US',
 
-  // PLACEHOLDER — replace before launch, then set phoneVerified: true.
-  phone: '(928) 555-0186',
-  phoneHref: 'tel:+19285550186',
-  phoneVerified: false,
-  email: '',
+  phone: '(928) 493-8782',
+  phoneHref: 'tel:+19284938782',
+  phoneVerified: true,
+  email: 'info@prescotteliteepoxyflooring.com',
 
-  map: { query: 'Prescott, AZ', lat: 34.54, lng: -112.4685, zoom: 12 },
+  map: { query: "730 6th St #455, Prescott, AZ 86301", lat: 34.541, lng: -112.469, zoom: 13 },
 
   serviceAreas: [
     { name: 'Prescott', note: 'From the historic downtown and Mt. Vernon Street to Prescott Lakes and the Ranch.' },
