@@ -387,6 +387,13 @@ strong { font-weight: 600; }
 .nf { padding: 8rem 0; text-align: center; }
 
 /* Footer */
+/* "You can also find us here" strip above the footer (homepage) */
+.findus { background: var(--linen); border-top: 1px solid var(--line); padding: 2rem 0; }
+.findus__in { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0.75rem 1.5rem; text-align: center; }
+.findus__h { font-size: 1.3rem; margin: 0; }
+.findus__list { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 0.6rem; padding: 0; margin: 0; }
+.findus__list a { display: inline-block; padding: 0.55rem 1.2rem; border: 1.5px solid var(--ink); border-radius: 999px; color: var(--ink); font-weight: 700; text-decoration: none; transition: background 0.2s, color 0.2s, border-color 0.2s; }
+.findus__list a:hover { background: var(--slate-deep); border-color: var(--slate-deep); color: #fff; }
 .foot { background: #1d2a36; color: #b7c3ce; padding: 4.5rem 0 1.5rem; }
 .foot a { color: #e9eef2; text-decoration: none; }
 .foot a:hover { color: #e8d5bf; }
